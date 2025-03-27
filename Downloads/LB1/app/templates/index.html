@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page (Rest API)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .link-block {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .link-block a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            background: #007BFF;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: background 0.3s ease;
+        }
+        .link-block a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Главная страница Rest API сервера</h1>
+        <p>Это корневая страница нашего Rest API сервера.<br>
+           Для того чтобы проверить работу, зайдите на одну из ссылок:</p>
+        <div class="link-block">
+            <a href="api/v1/contact/">📞 Здесь хранятся все контакты</a>
+            <a href="api/v1/group/">👥 Здесь хранятся все группы</a>
+        </div>
+    </div>
+</body>
+</html>
